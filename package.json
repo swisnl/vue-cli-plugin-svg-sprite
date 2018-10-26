@@ -20,5 +20,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "svg-sprite-loader": "^4.0.0"
   }
 }
