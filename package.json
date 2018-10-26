@@ -1,0 +1,24 @@
+{
+  "name": "vue-cli-plugin-svg-sprite",
+  "version": "0.1.0",
+  "description": "vue-cli 3 plugin to build SVG sprites",
+  "keywords": [
+    "svg",
+    "sprite",
+    "vue-cli"
+  ],
+  "author": "Jasper Zonneveld <jasper@swis.nl>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swisnl/vue-cli-plugin-svg-sprite.git"
+  },
+  "homepage": "https://github.com/swisnl/vue-cli-plugin-svg-sprite#readme",
+  "bugs": {
+    "url": "https://github.com/swisnl/vue-cli-plugin-svg-sprite/issues"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
