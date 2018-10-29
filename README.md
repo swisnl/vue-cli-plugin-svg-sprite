@@ -55,6 +55,29 @@ module.exports = {
 };
 ```
 
+### Extra loaders
+
+It is possible to add extra Webpack loaders to this plugin.
+This can be useful if you wan't your icons to be optimized before the sprite is created.
+The following example can be created using the generator and uses [svgo](https://github.com/svg/svgo) and [svgo-loader](https://github.com/rpominov/svgo-loader) to accomplish this.
+
+Install extra dependencies:
+```bash
+npm install svgo svgo-loader --save-dev
+```
+
+Add the loader to your Webpack config in your `vue.config.js` file:
+```javascript
+module.exports = {
+    chainWebpack: config => {
+        config.module
+            .rule('svg-sprite')
+            .use('svgo-loader')
+            .loader('svgo-loader');
+    }
+};
+```
+
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information about what has changed recently.
