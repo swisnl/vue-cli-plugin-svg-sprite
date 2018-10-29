@@ -4,6 +4,11 @@ All notable changes to `vue-cli-plugin-svg-sprite` will be documented in this fi
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## [0.3.0] - 2018-10-29
+
+### Added
+- Generator option to add SVGO-loader
+
 ## [0.2.0] - 2018-10-29
 
 ### Added
