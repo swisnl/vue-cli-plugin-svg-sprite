@@ -4,19 +4,11 @@ All notable changes to `vue-cli-plugin-svg-sprite` will be documented in this fi
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
-## NEXT - YYYY-MM-DD
+## [0.2.0] - 2018-10-29
 
 ### Added
-- Nothing
+- Documentation
+- Generator with SvgIcon component
 
-### Deprecated
-- Nothing
-
-### Fixed
-- Nothing
-
-### Removed
-- Nothing
-
-### Security
-- Nothing
+### Changed
+- Use filenameHashing option to determine sprite filename
