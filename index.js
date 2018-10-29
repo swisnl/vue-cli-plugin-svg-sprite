@@ -14,7 +14,7 @@ module.exports = (api, projectOptions) => {
             .loader('svg-sprite-loader')
             .options(pluginOptions.loaderOptions || {
                 extract: true,
-                spriteFilename: 'img/icons.[hash:8].svg',
+                spriteFilename: projectOptions.filenameHashing ? 'img/icons.[hash:8].svg' : 'img/icons.svg',
             });
 
         webpackConfig
