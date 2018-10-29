@@ -58,7 +58,7 @@ module.exports = {
 ### Extra loaders
 
 It is possible to add extra Webpack loaders to this plugin.
-This can be useful if you wan't your icons to be optimized before the sprite is created.
+This can be useful if you want your icons to be optimized before the sprite is created.
 The following example can be created using the generator and uses [svgo](https://github.com/svg/svgo) and [svgo-loader](https://github.com/rpominov/svgo-loader) to accomplish this.
 
 Install extra dependencies:
