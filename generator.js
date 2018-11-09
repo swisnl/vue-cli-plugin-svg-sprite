@@ -1,3 +1,10 @@
+const chainWebpack = config => {
+  config.module
+    .rule('svg-sprite')
+    .use('svgo-loader')
+    .loader('svgo-loader')
+};
+
 module.exports = (api, options, rootOptions) => {
     api.render('./template');
 
@@ -31,12 +38,7 @@ module.exports = (api, options, rootOptions) => {
         } else {
             api.extendPackage({
                 vue: {
-                    chainWebpack: config => {
-                        config.module
-                            .rule('svg-sprite')
-                            .use('svgo-loader')
-                            .loader('svgo-loader');
-                    },
+                    chainWebpack,
                 },
             });
         }
