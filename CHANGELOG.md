@@ -4,6 +4,11 @@ All notable changes to `vue-cli-plugin-svg-sprite` will be documented in this fi
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## [0.3.1] - 2018-11-09
+
+### Fixed
+- Some tweaks to keep indenting of `vue.config.js` tidy after generator has done its work
+
 ## [0.3.0] - 2018-10-29
 
 ### Added
