@@ -78,6 +78,12 @@ module.exports = {
 };
 ```
 
+### Injected webpack-chain Rules
+
+- `config.module.rule('svg-sprite')`
+- `config.module.rule('svg-sprite').use('svg-sprite-loader')`
+- `config.plugin('svg-sprite')`
+
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information about what has changed recently.
