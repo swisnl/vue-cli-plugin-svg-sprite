@@ -15,7 +15,7 @@ vue add svg-sprite
 
 ## Usage
 
-Use the SvgIcon component provided by the generator or check the [loader documentation](https://github.com/kisenka/svg-sprite-loader#runtime-configuration) for other/advanced usages.
+Use the [SvgIcon component](template/src/components/SvgIcon.vue) provided by the generator or check the [loader documentation](https://github.com/kisenka/svg-sprite-loader#runtime-configuration) for other/advanced usages.
 
 N.B. This plugin only adds a loader to the Webpack configuration, it doesn't glob your directory and include every file it finds. You need to require the icons from within your code (JS, CSS, etc.) just like other modules to have them added to the sprite!
 
