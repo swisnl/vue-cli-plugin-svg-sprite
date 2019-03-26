@@ -5,7 +5,7 @@
 [![Software License](https://img.shields.io/github/license/swisnl/vue-cli-plugin-svg-sprite.svg)](LICENSE.md)
 [![Made by SWIS](https://img.shields.io/badge/%F0%9F%9A%80-made%20by%20SWIS-%23D9021B.svg)](https://www.swis.nl)
 
-vue-cli 3 plugin to build a SVG sprite using [svg-sprite-loader](https://github.com/kisenka/svg-sprite-loader).
+vue-cli 3 plugin to build an SVG sprite using [svg-sprite-loader](https://github.com/kisenka/svg-sprite-loader).
 
 ## Install
 
