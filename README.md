@@ -3,6 +3,7 @@
 [![Latest Version on NPM](https://img.shields.io/npm/v/vue-cli-plugin-svg-sprite.svg)](https://www.npmjs.com/package/vue-cli-plugin-svg-sprite)
 [![Code Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 [![Software License](https://img.shields.io/github/license/swisnl/vue-cli-plugin-svg-sprite.svg)](LICENSE.md)
+[![Known Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/vue-cli-plugin-svg-sprite.svg)](https://snyk.io/test/github/swisnl/vue-cli-plugin-svg-sprite?targetFile=package.json)
 [![Made by SWIS](https://img.shields.io/badge/%F0%9F%9A%80-made%20by%20SWIS-%23D9021B.svg)](https://www.swis.nl)
 
 vue-cli 3 plugin to build an SVG sprite using [svg-sprite-loader](https://github.com/kisenka/svg-sprite-loader).
