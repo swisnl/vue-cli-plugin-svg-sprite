@@ -4,6 +4,11 @@ All notable changes to `vue-cli-plugin-svg-sprite` will be documented in this fi
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## [1.0.0] - 2019-04-26
+
+### Fixed
+- Fix SvgIcon component to work with both CommonJS and ES Module exports
+
 ## [0.3.1] - 2018-11-09
 
 ### Fixed
