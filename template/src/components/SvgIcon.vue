@@ -23,7 +23,12 @@ export default {
 
   computed: {
     iconPath() {
-      return require(`@/assets/icons/${this.name}.svg`).default.url;
+      let icon = require(`@/assets/icons/${this.name}.svg`);
+      if (Object.prototype.hasOwnProperty.call(icon, 'default')) {
+        icon = icon.default;
+      }
+
+      return icon.url;
     },
 
     className() {
