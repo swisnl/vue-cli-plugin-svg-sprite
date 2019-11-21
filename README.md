@@ -42,7 +42,7 @@ module.exports = {
              * @see https://github.com/kisenka/svg-sprite-loader#configuration
              */
             loaderOptions: {
-                extract: true,
+                extract: true, // or false if you need the sprite to be automatically injected in the document.body
                 spriteFilename: 'img/icons.[hash:8].svg' // or 'img/icons.svg' if filenameHashing == false
             },
             /*
