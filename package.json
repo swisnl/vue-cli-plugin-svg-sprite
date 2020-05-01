@@ -19,9 +19,13 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
-    "svg-sprite-loader": "^4.0.0"
-  }
+    "svg-sprite-loader": "^4.0.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
