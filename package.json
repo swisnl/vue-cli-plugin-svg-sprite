@@ -22,6 +22,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "svg-sprite-loader": "^4.0.0"
+    "svg-sprite-loader": "^6.0.0"
   }
 }
