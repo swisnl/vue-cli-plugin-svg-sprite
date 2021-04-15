@@ -4,6 +4,11 @@ All notable changes to `vue-cli-plugin-svg-sprite` will be documented in this fi
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## [1.1.0] - 2021-04-15
+
+### Changed
+- Bumped svg-sprite-loader dependency to ^6.0
+
 ## [1.0.0] - 2019-04-26
 
 ### Fixed

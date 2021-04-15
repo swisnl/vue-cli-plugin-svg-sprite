@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-svg-sprite",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "vue-cli 3 plugin to build an SVG sprite",
   "keywords": [
     "svg",
