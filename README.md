@@ -35,7 +35,7 @@ module.exports = {
              */
             dir: 'src/assets/icons',
             /*
-             * The reqex that will be used for the Webpack rule.
+             * The regex that will be used for the Webpack rule.
              */
             test: /\.(svg)(\?.*)?$/,
             /*
