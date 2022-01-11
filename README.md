@@ -5,7 +5,7 @@
 [![Software License](https://img.shields.io/github/license/swisnl/vue-cli-plugin-svg-sprite.svg)](LICENSE.md)
 [![Buy us a tree](https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-lightgreen.svg)](https://plant.treeware.earth/swisnl/vue-cli-plugin-svg-sprite)
 [![Known Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/vue-cli-plugin-svg-sprite.svg)](https://snyk.io/test/github/swisnl/vue-cli-plugin-svg-sprite?targetFile=package.json)
-[![Made by SWIS](https://img.shields.io/badge/%F0%9F%9A%80-made%20by%20SWIS-%23D9021B.svg)](https://www.swis.nl)
+[![Made by SWIS](https://img.shields.io/badge/%F0%9F%9A%80-made%20by%20SWIS-%230737A9.svg)](https://www.swis.nl)
 
 vue-cli 3 plugin to build an SVG sprite using [svg-sprite-loader](https://github.com/kisenka/svg-sprite-loader).
 
