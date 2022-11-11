@@ -9,6 +9,10 @@
 
 vue-cli 3 plugin to build an SVG sprite using [svg-sprite-loader](https://github.com/kisenka/svg-sprite-loader).
 
+⚠️ Vue CLI and this plugin are in Maintenance Mode! ⚠️
+
+For new projects, it is now recommended to use [`create-vue`](https://github.com/vuejs/create-vue) to scaffold [Vite](https://vitejs.dev/)-based projects. Also refer to the [Vue 3 Tooling Guide](https://vuejs.org/guide/scaling-up/tooling.html) for the latest recommendations.
+
 ## Install
 
 ```bash
